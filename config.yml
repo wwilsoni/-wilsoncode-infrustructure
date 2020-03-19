@@ -1,0 +1,14 @@
+version: 2
+
+jobs:
+  build:
+    docker:
+      image: circle.ci/python:latest
+    stage:
+          run: echo "build"
+
+  deploy:
+    docker:
+      image: circle.ci/python:latest
+    stage:
+          run: echo "build"
